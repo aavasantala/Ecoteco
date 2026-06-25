@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297.72 439.3">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 30px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: ArialRoundedMTBold, 'Arial Rounded MT Bold';
+      }
+
+      .cls-3 {
+        fill: #292929;
+        stroke: #1a1a1a;
+        stroke-width: 3px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        fill: #ccc;
+        stroke: gray;
+      }
+
+      .cls-4, .cls-5 {
+        stroke-width: 4px;
+      }
+
+      .cls-5 {
+        fill: #7a6049;
+        stroke: #615143;
+      }
+
+      .cls-6 {
+        letter-spacing: .01em;
+      }
+
+      .cls-2 {
+        font-size: 48px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <rect class="cls-4" x="16.53" y="2" width="262.9" height="110.53" rx="54" ry="54"/>
+        <path class="cls-5" d="M231.19,437.3H66.09c-27.61,0-50-22.39-50-50L9.93,51.1h277.87l-6.61,336.2c0,27.61-22.39,50-50,50Z"/>
+        <rect class="cls-5" x="2" y="31.28" width="293.72" height="25.98" rx="6" ry="6"/>
+      </g>
+      <g>
+        <path class="cls-3" d="M101.78,204.4s30.66,1.15,29.9,39.09-31.81,40.24-31.81,40.24c0,0,8.43,20.7,42.93,5.75,32.58,19.16,47.14-6.52,47.14-6.52,0,0-33.35-1.15-33.35-38.71s30.66-39.86,30.66-39.86c0,0-6.13-16.48-42.35-2.3-30.85-16.86-43.12,2.3-43.12,2.3Z"/>
+        <polygon class="cls-3" points="139.72 175.27 150.07 175.27 147.77 195.16 142.41 195.16 139.72 175.27"/>
+      </g>
+    </g>
+    <text class="cls-2" transform="translate(104.2 124.68)"><tspan x="0" y="0">BIO</tspan></text>
+    <text class="cls-1" transform="translate(66.19 370.46)"><tspan x="0" y="0">BI</tspan><tspan class="cls-6" x="30.97" y="0">O</tspan><tspan x="55.09" y="0">WASTE</tspan></text>
+  </g>
+</svg>

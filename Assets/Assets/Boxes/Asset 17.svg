@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297.72 439.3">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4d4d4d;
+        stroke: #292929;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        fill: #292929;
+        stroke: #1a1a1a;
+      }
+
+      .cls-3 {
+        stroke: gray;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #ccc;
+      }
+
+      .cls-4 {
+        font-family: ArialRoundedMTBold, 'Arial Rounded MT Bold';
+        font-size: 36px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <rect class="cls-3" x="16.53" y="2" width="262.9" height="110.53" rx="54" ry="54"/>
+        <path class="cls-1" d="M231.19,437.3H66.09c-27.61,0-50-22.39-50-50L9.93,51.1h277.87l-6.61,336.2c0,27.61-22.39,50-50,50Z"/>
+        <rect class="cls-1" x="2" y="31.28" width="293.72" height="25.98" rx="6" ry="6"/>
+      </g>
+      <g>
+        <path class="cls-2" d="M128.75,202.19s-34.61,6.54-34.88,59.13-2.18,42.51-2.18,42.51l-5.72,12.81s-2.18,6.54,8.99,3.82,18.53-3.54,18.53-3.54l29.98,2.18s12.26-6.81,20.71-4.63,26.16,5.45,26.16,5.45c0,0,11.99,2.18,8.99-4.09-3-6.27-9.81-24.53-6.81-36.24,3-11.72-4.63-45.24-4.63-45.24,0,0-3.54-19.08-31.07-32.16-.93-.01-1.83-.03-2.72-.04-15.59-.2-25.35.04-25.35.04Z"/>
+        <path class="cls-2" d="M180.26,180.12s-25.34-11.45-24.25-16.08-11.95,9.27-13.2,4.36c-1.24-4.91-2.06-11.45-2.06-11.45,0,0-13.63,26.16-22.07,16.62-8.45-9.54,8.99,24.25,8.99,24.25h29.43l23.16-17.71Z"/>
+      </g>
+    </g>
+    <text class="cls-4" transform="translate(97.7 112.53)"><tspan x="0" y="0">SEKA</tspan></text>
+    <text class="cls-4" transform="translate(63.24 388.77)"><tspan x="0" y="0">GENERAL</tspan></text>
+  </g>
+</svg>

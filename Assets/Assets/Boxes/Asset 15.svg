@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297.72 439.3">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: ArialRoundedMTBold, 'Arial Rounded MT Bold';
+        font-size: 30px;
+      }
+
+      .cls-2 {
+        stroke: red;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #292929;
+        stroke-width: 9px;
+      }
+
+      .cls-6 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-3 {
+        fill: #f27a0c;
+        stroke: #b35a09;
+      }
+
+      .cls-3, .cls-5 {
+        stroke-width: 4px;
+      }
+
+      .cls-4 {
+        stroke: #1a1a1a;
+      }
+
+      .cls-5 {
+        fill: #ccc;
+        stroke: gray;
+      }
+
+      .cls-9 {
+        letter-spacing: -.02em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <rect class="cls-5" x="16.53" y="2" width="262.9" height="110.53" rx="54" ry="54"/>
+        <path class="cls-3" d="M231.19,437.3H66.09c-27.61,0-50-22.39-50-50L9.93,51.1h277.87l-6.61,336.2c0,27.61-22.39,50-50,50Z"/>
+        <rect class="cls-3" x="2" y="31.28" width="293.72" height="25.98" rx="6" ry="6"/>
+      </g>
+      <g>
+        <polygon class="cls-4" points="146.03 171.98 81.87 291.07 216.4 291.07 146.03 171.98"/>
+        <line class="cls-2" x1="146.42" y1="206.67" x2="146.42" y2="250.59"/>
+        <line class="cls-2" x1="146.42" y1="278.19" x2="146.42" y2="268.53"/>
+      </g>
+    </g>
+    <text class="cls-1" transform="translate(51.3 362.56)"><tspan x="0" y="0">HAZARDOUS</tspan><tspan class="cls-6" x="-.83" y="36">D</tspan><tspan x="20.23" y="36">ANGEROUS</tspan></text>
+    <text class="cls-1" transform="translate(39.66 99.13)"><tspan class="cls-7" x="0" y="0">V</tspan><tspan x="19.12" y="0">AARALLINEN</tspan><tspan class="cls-9" x="71.25" y="36">J</tspan><tspan class="cls-8" x="87.7" y="36">Ä</tspan><tspan x="106.64" y="36">TE</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="root" style="flex-grow: 1;">
+        <ui:Button text="Button" name="boxLeftBtn" style="position: absolute; height: 139px; width: 140px; top: 96px; left: -1px;"/>
+        <ui:Button text="Button" name="boxRightBtn" style="position: absolute; height: 139px; width: 140px; top: 100px; left: 1769px;"/>
+        <ui:VisualElement name="recycleBoxs" style="flex-grow: 1; position: absolute; height: 397px; width: 1615px; left: 149px;">
+            <ui:VisualElement name="boxMuovi" style="flex-grow: 1; position: absolute; height: 337px; width: 341px; top: 22px; left: 48px;"/>
+            <ui:VisualElement name="boxBio" style="flex-grow: 1; position: absolute; height: 337px; width: 341px; top: 33px; left: 672px;"/>
+            <ui:VisualElement name="BoxPahvi" style="flex-grow: 1; position: absolute; height: 337px; width: 341px; top: 29px; left: 1253px;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="itemBoxRoot" style="flex-grow: 1; position: absolute; height: 428px; width: 962px; top: 627px; left: 494px;"/>
+        <ui:Button text="Button" name="pauseButton" style="position: absolute; height: 139px; width: 140px; top: 913px; left: 13px;"/>
+        <ui:Button text="Button" name="helpButton" style="position: absolute; height: 139px; width: 140px; top: 924px; left: 1755px;"/>
+    </ui:VisualElement>
+</ui:UXML>

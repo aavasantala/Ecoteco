@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297.72 439.3">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-2 {
+        fill: #437a50;
+        stroke: #2e5437;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-5 {
+        font-family: ArialRoundedMTBold, 'Arial Rounded MT Bold';
+        font-size: 36px;
+      }
+
+      .cls-3 {
+        fill: #292929;
+        stroke: #1a1a1a;
+      }
+
+      .cls-4 {
+        fill: #ccc;
+        stroke: gray;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <rect class="cls-4" x="16.53" y="2" width="262.9" height="110.53" rx="54" ry="54"/>
+        <path class="cls-2" d="M231.19,437.3H66.09c-27.61,0-50-22.39-50-50L9.93,51.1h277.87l-6.61,336.2c0,27.61-22.39,50-50,50Z"/>
+        <rect class="cls-2" x="2" y="31.28" width="293.72" height="25.98" rx="6" ry="6"/>
+      </g>
+      <g>
+        <polygon class="cls-3" points="102.84 166.8 102.84 305.07 193.12 305.07 193.12 199.38 167.58 166.8 102.84 166.8"/>
+        <polyline class="cls-3" points="167.58 166.8 156.9 197.46 193.12 199.38"/>
+        <line class="cls-3" x1="122.06" y1="225.53" x2="168.79" y2="225.53"/>
+        <line class="cls-3" x1="122.06" y1="248.15" x2="178.7" y2="248.15"/>
+        <line class="cls-3" x1="122.06" y1="272.1" x2="178.7" y2="272.1"/>
+      </g>
+    </g>
+    <text class="cls-5" transform="translate(84.41 113.69)"><tspan class="cls-1" x="0" y="0">P</tspan><tspan x="20.85" y="0">APERI</tspan></text>
+    <text class="cls-5" transform="translate(88.81 393.03)"><tspan class="cls-1" x="0" y="0">P</tspan><tspan x="20.85" y="0">APER</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297.72 439.3">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 36px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: ArialRoundedMTBold, 'Arial Rounded MT Bold';
+      }
+
+      .cls-3 {
+        fill: #ffb53d;
+        stroke: #b8822c;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-6 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-4 {
+        fill: #292929;
+        stroke: #1a1a1a;
+      }
+
+      .cls-7 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-5 {
+        fill: #ccc;
+        stroke: gray;
+      }
+
+      .cls-2 {
+        font-size: 48px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <rect class="cls-5" x="16.53" y="2" width="262.9" height="110.53" rx="54" ry="54"/>
+        <path class="cls-3" d="M231.19,437.3H66.09c-27.61,0-50-22.39-50-50L9.93,51.1h277.87l-6.61,336.2c0,27.61-22.39,50-50,50Z"/>
+        <rect class="cls-3" x="2" y="31.28" width="293.72" height="25.98" rx="6" ry="6"/>
+      </g>
+      <path class="cls-4" d="M138.33,194.02s-16.68,15.32-17.7,23.48,6.47,23.91,6.47,23.91c0,0-6.61,6.04-6.54,9.1s-.02,51.48-.02,51.48c0,0,10.31,25.1,26.3,1.96,16,22.8,28.58-1.11,28.58-1.11l-.33-53.6s2.38-4.3-5.62-8.68c4.42-3.56,9.7-28.84-11.74-46.54-.34-5.11-1.02-16.68-1.02-16.68l-18.21-.43-.17,17.1Z"/>
+    </g>
+    <text class="cls-2" transform="translate(68.23 125.25)"><tspan x="0" y="0">MU</tspan><tspan class="cls-7" x="76.45" y="0">O</tspan><tspan x="113.23" y="0">VI</tspan></text>
+    <text class="cls-1" transform="translate(71.06 386.01)"><tspan x="0" y="0">P</tspan><tspan class="cls-6" x="24.01" y="0">L</tspan><tspan x="45.28" y="0">ASTIC</tspan></text>
+  </g>
+</svg>
