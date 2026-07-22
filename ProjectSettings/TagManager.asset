@@ -14,6 +14,11 @@ TagManager:
   - vaarallinen
   - bg
   - bio
+  - border
+  - box
+  - sekabox
+  - biobox
+  - muovibox
   layers:
   - Default
   - TransparentFX

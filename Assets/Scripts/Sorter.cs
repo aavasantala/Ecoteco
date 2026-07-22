@@ -5,6 +5,7 @@ using DG.Tweening;
 public class Sorter : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler, IEndDragHandler
 {
     private Vector2 ogPos;
+    private Vector2 ogPos2;
     private bool onBox = false;
     private BoxResult boxResult;
     private itemChooser itemChooser;
@@ -21,17 +22,26 @@ public class Sorter : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDr
         rectTransform = GetComponent<RectTransform>();
         canvasGroup = GetComponent<CanvasGroup>();
         canvas = GetComponentInParent<Canvas>();
-        Vector2 anchoredPos;
-        ogPos.x = 28.926f;
-        ogPos.y = -342.47f;
         
+        ogPos.x = 0f;
+        ogPos.y = -380f;
+
+        ogPos2.x = 0f;
+        ogPos2.y = 262f;
         //RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRect,ogPos,Camera.main,out anchoredPos);
         rectTransform.localPosition = ogPos;
+
+
+    }
+
+    public void OnRenderObject()
+    {
+        
     }
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        rectTransform.DOKill(); // stop any ongoing tween
+        rectTransform.DOKill();
         canvasGroup.blocksRaycasts = false;
     }
 
@@ -57,7 +67,7 @@ public class Sorter : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDr
     {
         rectTransform.DOKill();
         rectTransform
-            .DOAnchorPos(ogPos, 0.4f)
+            .DOAnchorPos(ogPos2, 0.4f)
             .SetEase(Ease.OutBack)   
             .SetUpdate(true);
     }
@@ -74,7 +84,7 @@ public class Sorter : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDr
         //väärä laatikko
         if (targetTag != gameObject.tag)
         {
-            itemChooser.ChooseItem();
+            //itemChooser.ChooseItem();
             
             Destroy(gameObject);
             boxResult.WrongBox();
@@ -84,7 +94,7 @@ public class Sorter : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDr
         //tähän oikea laatikko
         boxResult.CorrectBox();
         Destroy(gameObject);
-        itemChooser.ChooseItem();
+        //itemChooser.ChooseItem();
         
         return;
     }

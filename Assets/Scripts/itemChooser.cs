@@ -21,7 +21,7 @@ public class itemChooser : MonoBehaviour
     {
         try
         {
-            int rand = Random.Range(0, prefabs.Length-1);
+            int rand = Random.Range(0, prefabs.Length);
             Debug.Log(rand + " length= " + prefabs.Length);
             currentItem = prefabs[rand];
         }

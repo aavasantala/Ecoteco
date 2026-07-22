@@ -18,6 +18,6 @@ public class MainMenuScript : MonoBehaviour
 
     void StartButtonClicked()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Level1");
     }
 }

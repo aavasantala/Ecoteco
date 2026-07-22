@@ -4,10 +4,13 @@ public class PauseScript : MonoBehaviour
 {
 
     public GameObject panel;
-
-    private void OnEnable()
+    private void Start()
     {
         panel = Singleton.Instance.pausePanel;
+    }
+    private void OnEnable()
+    {
+        
     }
     public void OnPauseClick()
     {

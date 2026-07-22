@@ -1,3 +1,5 @@
+using System.Diagnostics.Tracing;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -11,7 +13,12 @@ public class Singleton : MonoBehaviour
 
     public AudioSource audioSource { get; private set; }
 
+    public TMP_Text text;
+    public TMP_Text textBest;
+
     public GameObject pausePanel;
+    public int score;
+    public int bestScore;
 
     
 
@@ -31,14 +38,25 @@ public class Singleton : MonoBehaviour
         itemChooser = GetComponentInChildren<itemChooser>();
         boxResult = GetComponentInChildren<BoxResult>();
         audioSource = GetComponentInChildren<AudioSource>();
-
         
+        pausePanel.SetActive(false);
+
 
     }
 
     private void Start()
     {
         itemChooser.ChooseItem();
+    }
+
+    public void OnValueChanged()
+    {
+        if(score.ToString()==null|| score.ToString() == "")
+        {
+            score = 0;
+        }
+        text.text = "Current score : " + score;
+        textBest.text = "Best score : " + bestScore;
     }
 
 }
